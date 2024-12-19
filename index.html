@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHN BIG SALE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            MHNraha
+            
+        </div>
+        <div class="search-bar">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbtJREFUSEu11UuoTVEcx/HPJSN5pCRmTE28pga6IROPklC3hJIiiUsMUIrIW4kiqRsZKCaiZICZkJiZGBl4FTFwB5f11zq1ne46e+ucu0b7v9vr//0/f7vPGJ++MfavBJiOvViIeTmIV3iOM/jcNLDRAAO4iCkFJ1+xGfeaQNoBO3EhX7yDS3ic7f4U+Q6szvZG3KqDVAFz8A7jcnlOFy4fTu+P4Cdm41MnSBUQ0W7HbayviewBluMQjjYFfMDM3NTXNYBleIgXWNQUMIwJKaLxKbKRGsA0fMH3DsPw10W1RD8wEZNSD+K505mMb/iIGU0zeIu5WIxnNYAleboeYWlTwDEcSD24izU1gKh/9CF2ZqgpYBbe5z4M4lTh4gnsQ2z2gv/Zg/h2E65XFu08nmZ7FbZhRbbP5n3pOBCjScW6NK5XMLUQXUzO5ZxF9G0/7pcyKYldTMaeLHbzU29+4SWe4FoWuxC+1g6Edu3C73ZQN3K9sk3wzqXR3d1LQPi6iQ0Vp8dxsArpJoPwE5sfkLUVp1HCrS27W0DLz1VsycY/WfQKEBJ/A29wspclqtuz4j+59mLTD3pVoiLvD9ByShl/aCxCAAAAAElFTkSuQmCC" />
+            <span><input type="search" placeholder="Search for Products, Brands and More">
+            </span>
+        </div>
+        <div class="login">
+            <div class="perfect-login">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAArhJREFUSEu1lUnIT2EUxn8fdoYsZPjMbEzFZ542IgtKFAoLpD4Zig1lnikUFkohU0lImRdkY4jMc8ocIkpENsJ5vs6r977+9/5t/m/dbvfe97zPeZ7znHOrqPCqqvD5lAOoB4wG+gM1QF9P6AZwG7gKnAV+5SVaBNAeOAgMLsPyCjAZeFVqXx7ADGAb0BC4BuwDHgEP/ZAeQDdgGtAP+A7MA3anIKUApgJ7gZ92LTWQTQUSSMJFduhKoAGg2P0xSArQDngANAKGAqKv1cauXcAgf74EzATe+PMQ4CLwzZmF95kiC0wHDgTWWNbLPbgauAs0S+h/BHoB7/z9OmAxcMHAhoe9MQM5RXrfB3q7RNp32LSf4AxWGHh9QHfV6YjVZqIfJonkrp4eL5dlGMwHtlhGtcDOKNvPQFMrYNtIkk7AM+AD0DLaOxvYDsz1ewYgZCrtL0dBOqS5FU+HvvD3eQDDXCLZe0rK4LVnqQLLdmEFYLFa7axXme+nA4eASdHeFsB7s+9Ls3bHFOAr0Bho5ZtCnJ5vJVLom4qrWolhWDLEW+CLy5qR6LFl1MVHw5nEMU2AhU77N3AA2JgwVcgYGynHgXte7AzAHu/MJcD6CEBOk89lyWDVTz6LZGsBhiXpZO8dxmxWKtEoa/vTXsjuwA+zoe4nvMAJqbrHp5612Kt2Gidy20hL6lwKIH/Lx8pUdl3mB8iG0vW8F09xHYARZufWXovOBrAZmGMSX7cJOyAwS0dFaDYdctTGxnjgZjSmYxaKVTOpscJeje0+wJ2wsdSwUw3WRiepcCdL6WMjZBxwLPq2wJn8fZU3ruV3SaQlfTWGNWOeWy9oggaJ1AtdfZ/m0IY0kaIfjv5eW91BOQTqXqvrNWZUv39WuV+mAsZ6b6hH5CrprB/PE3fYqSL0/wEoii/7reIAfwA4LocZGRNE4QAAAABJRU5ErkJggg==" />
+           <span>Login</span>
+        </div>
+        <div  class="perfect-login">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATdJREFUSEvd1LErhVEYx/HPFQsGpGzKaLIw4S8QiygDCxnIaMDMH6AoxWYQJv4DZVEWg7LYSUIWGXhf3as37nvf897cujnjOc/5fZ/feZ7zFNR4FWqs738BPv7wuS7RH+sln+gvAffo+gkoGVjHKvYwl9PVCjawj+k0QA9u8YoOvOeAnGEYUzhIA8T7FxjAJI4CAc14QQPa8VwJsBRlv4lTjAUCxnGMcwyV7qT9gzY8FIM68RQA2cVs9KRrxTp8Xan00U4wGiCcDIk7sTeqwU2Wg/h8Aoc5AHfF7OPu+16VHDThEa3ow1UOWBAgDtrBfNHJDN7yQrKGXXfUqtdoCRT+pZcFiHVHsIxBNGaAqgIEJl8+LMRBfHMLC9jGYkIqbT+4yKXA5KRNm8Blk60bB1XXIdRB/QI+ASSvMBksNnrTAAAAAElFTkSuQmCC" />
+       <span>Cart</span>
+            </div>
+        <div  class="perfect-login">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdBJREFUSEvl1MurjlEUBvDfycRlZOCWiAhhoGRmIkpMiGTgD5DMkEuYueaUkVJGBiSRTEQuM0YGbiUlUXKJTBSZYK/T+k7b9tHXp1NkT96917vXetZ61rP2gBFeAyMcXzeAUTiJTRjTYwKfcQab8bX26QawHYM9Bm6vbcPx3wFMxrPMfAVuYj0u4CpWpXPsV2IdLmE5buAj5pZKXndA2grOYSPO5zfuHcZuHMD+dIz9XhzEvrSFzwacTXqHzDXAMtzCJ8yusriOqGYtLmew2EfmdVVT8BRjSzVLcbsFeIQFBWAnjlU8fsB4TMWrtMf+Jd5hYnV3F47gPha1AG/z8vxCz+N0mo4XuZ+V/YnjHDxJ+7QEi+PC0rOHiFjRzx8ouphNu4YdCLkewuoMdC+5HY3TGSx+BW2R+bgijqNJ53AP6x4E4nD3q7KjJ3GvnYnQ/rfkvJXrBLxvK4hzOMQKDmfgbuF5awY5hcX5/06hYQu+4ASWJH1DvNfMtDLtAPT7hPzk/1cArEnpzWuIDqWFGK5U9r4qeINJbRfzHM9KyLez+gL4VV+62f8DgHgW4nn4k/W8TPrMToBWpqGYGPd40/tZD8rw7amV1e9A9Qz+7wN8B5zGYxmk5eWQAAAAAElFTkSuQmCC" />
+          <span>Become a Seller</span> 
+        </div>
+        
+    </header>
+    <main>
+        <div class="nav-product">
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/698ba0cebe456aaf.jpg?q=100" alt="">
+                <p>Top Offers</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/44e10b16e649b691.jpg?q=100" alt="">
+                <p>Mobiles & Tablets</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/717b5077a5e25324.jpg?q=100" alt="">
+                <p>TV & Appliances</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/4da1d0d19350cc84.jpg?q=100" alt="">
+                <p>Electronics</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/9d4e9c605fc1d2d3.jpg?q=100" alt="">
+                <p>Fashion</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/a5e656672d0548dd.jpg?q=100" alt="">
+                <p>Beauty</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/5b813b64a3179898.jpg?q=100" alt="">
+                <p>Home & kitchen</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/7a5e96c10ada8a56.jpg?q=100" alt="">
+                <p>Furniture</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/57fe1ffe54569c41.jpg?q=100" alt="">
+                <p>Travel</p>
+            </div>
+            <div class="nav-img">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/51/51/image/25f400c36bc3487d.jpg?q=100" alt="">
+                <p>Grocery</p>
+            </div>
+
+        </div>
+        <div class="carousel">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b1c0f73e61ccfaf5.jpg?q=20" alt="">
+        </div>
+        <div class="partition">
+            <h3 class="partition-head">Electronics</h3>
+            <div class="products">
+
+
+
+
+                <div class="product">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/o/a/k/36-322-38153wp01-android-ios-fastrack-yes-original-imah4gmn2pshgs4w.jpeg?q=70"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Smartwathch</p>
+                        <h4>From$1,399</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/9/b/-original-imagupg4ugbtjx8g.jpeg?q=70"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Oppo A79</p>
+                        <h4>From $ 12999</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://rukminim2.flixcart.com/image/200/200/xif0q/monitor/c/0/n/-original-imagrgv53gdsxhyb.jpeg?q=70"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Monitor</p>
+                        <h4>From $ 4999</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://rukminim2.flixcart.com/image/150/150/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+                        alt="">
+                    <div class="p-condent">
+
+                        <p>Canoon 3000D</p>
+                        <h4>From $ 899 </h4>
+
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/l27wtjk0/speaker/i/4/e/-original-imagdhhg2f7zjbt7.jpeg?q=70"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Speakers</p>
+                        <h4>From $ 1859 </h4>
+
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/9/v/m/-original-imahyz8hmfgwhtdv.jpeg?q=70"
+                        alt="">
+
+                    <div class="p-condent">
+                        <p>Headphones</p>
+                        <h>From $ 7899 </h4>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="partition">
+            <h3 class="partition-head">Food & more</h3>
+
+            <div class="products">
+
+                <div class="product">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNGzo2OZkdJv71QSWiLa4ivq4jjus9c1VrjeJ2TpmL1S6okdciAGWPkiSnGaV9upg23i7Xn3TfBT9U4Q9rT7qlddol0WZ5Sr_aLZT9FbiEq3VMPz0m4a5ucA&usqp=CAE"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Try fruits</p>
+                        <h4>From $ 494</h4>
+
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSSZBAYF_XhPAsqpG-xhU-9r-KJ6ZKPeFc_eM4KlmRkazhWCWS44lt02GZtJoXMAy6_qMS2Nw-UZrI6uaHvTlFoVSu-ycgBJNppJGGnRLlbc7y1cgE4CnzQZw&usqp=CAE"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Premium pitted prunes</p>
+                        <h4>From $ 179</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRVS2_97dFA2JOxqyuiULYj72MGKfxRAI0K7kgQkYE5NIq2dbcloUQvuFHUbxRkQP8B654lJOe0S4gXib4aUvcXYjn1t0zaS4kQyf2H1rTsOuA46uFJrv6t"
+                        alt="">
+                    <div class="p-condent">
+                        <p>DRIED APRICOTS</p>
+                        <h4>From $ 429</h4>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNlIks8RS81IDKoKXqtQ0e2QWKjF12cbdGFtCmAPh2rwISlYonA6-Xkx-Pq4QuRtAoD3YYRQEw4wAvTOAbQ7NnNIsZ4pB23G5uD1w8wms"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Samuel 4-Door</p>
+                        <h4>From $ 40000</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS4ZJcztMG9cq_RIcp5o-gdvCMczA4LeWMsCW3vZePql_ZmBfkL582RC_Cu-qOzZP9pV_VYGxDfES9xM9a7AW7F1qBwK2GNMVDG_Rduvu10kgfRSAqEWYlU"
+                        alt="">
+                    <div class="p-condent">
+                        <p>Speedy Baby Ride On Car</p>
+                        <h4>From $ 2399</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="f-condent">
+            <div class="featurs">
+                <p>ABOUT</p>
+                <li>Contact Us</li>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Flipkart Stories</li>
+                <li>Corporate Information</li>
+            </div>
+            <div class="featurs">
+                <P>GROUP COMPANIES</P>
+                <li>Myntra</li>
+                <li>Cleartrip</li>
+                <li>Shopsy</li>
+
+            </div>
+            <div class="featurs">
+                <p>HELP</p>
+                <li>Payments</li>
+                <li>Shipping</li>
+                <li>Cancellation & Returns</li>
+                <li>FAQ</li>
+                <li>Report Infringement</li>
+            </div>
+
+            <div class="featurs">
+                <p>CONSUMER POLICY</p>
+                <li>cancellation & Returns</li>
+                <li>Terms of Use</li>
+                <li>Privacy</li>
+                <li>Sitemap</li>
+                <li>EPR Compliance</li>
+            </div>
+            <div class="featurs1">
+                <p>Mail Us:</p>
+                <li>abs internet Private limited,</li>
+                <li>bangaluru,4488848</li>
+                <li>india</li>
+            </div>
+
+
+        </div>
+        <div class="featurimg">
+            <div class="featurimgG">
+                <a href="#">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg"
+                        alt="">Become a Seller</a>
+            </div>
+            <div class="featurimgG">
+                <a href="#">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg"
+                        alt="">Advertise
+                </a>
+            </div>
+            <div class="featurimgG">
+                <a href="#">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg"
+                        alt="">Gift Cards
+                </a>
+            </div>
+            <div class="featurimgG">
+                <a href="#">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg"
+                        alt="">Help Center
+                </a>
+            </div>
+            <div class="featurimgG">
+                <span>@2002-2024 Flipkart.com </span>
+            </div>
+
+            <div>
+                <a href="#">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg"
+                        alt="">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
